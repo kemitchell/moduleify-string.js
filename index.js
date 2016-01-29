@@ -6,5 +6,5 @@ function moduleifyString(string) {
       string
         .replace(/[\\"']/g, '\\$&')
         .replace(/\u0000/g, '\\0')
-        .replace(/\n/g, '\\n') +
+        .replace(/\r?\n/g, '\\n') +
     '";\n') }
