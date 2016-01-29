@@ -1,0 +1,9 @@
+{
+  "name": "moduleify-string",
+  "description": "turn a string into `module.exports = string`",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "bin": "moduleify-string",
+  "license": "MIT",
+  "repository": "kemitchell/moduleify-string.js"
+}
